@@ -1,0 +1,10 @@
+all: program
+
+program: frequencyMPI.o
+	mpicc frequencyMPI.o -o program
+
+frequencyMPI.o: frequencyMPI.c
+	mpicc -c frequencyMPI.c -o frequencyMPI.o
+
+clean:
+	rm -f frequencyMPI.o program core *~
