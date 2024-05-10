@@ -1,6 +1,6 @@
 /*********************************************************************
-* Filename:   aes.h
-* Author:     Brad Conte (brad AT bradconte.com)
+* 
+* Author:     Udeze Leonard
 * Copyright:
 * Disclaimer: This code is presented "as is" without any guarantees.
 * Details:    Defines the API for the corresponding AES implementation.
